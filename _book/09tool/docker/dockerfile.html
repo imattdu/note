@@ -1,0 +1,764 @@
+
+<!DOCTYPE HTML>
+<html lang="zh-hans" >
+    <head>
+        <meta charset="UTF-8">
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <title>dockerfile · 未完</title>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.3">
+        <meta name="author" content="未完">
+        
+        
+    
+    <link rel="stylesheet" href="../../gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-code/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-prism/prism-atom-dark.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-search-pro/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-splitter/splitter.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-tbfed-pagefooter/footer.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-lightbox/css/lightbox.min.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-anchor-navigation-ex/style/plugin.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="../../gitbook/gitbook-plugin-theme-comscore/test.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+
+        
+    
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="../../gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="../../gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    
+    <link rel="prev" href="docker.html" />
+    
+
+    
+        <link rel="shortcut icon" href="/_media/favicon.ico" type="image/x-icon">
+    
+    
+    
+    
+        <link rel="apple-touch-icon-precomposed" sizes="152x152" href="/_media/icon-144x144.png">
+    
+    
+        
+    
+    
+        
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="输入并搜索" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="../../">
+            
+                <a href="../../">
+            
+                    
+                    快速开始
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.2" >
+            
+                <span>
+            
+                    
+                    tool
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1" >
+            
+                <span>
+            
+                    
+                    docker
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.2.1.1" data-path="docker.html">
+            
+                <a href="docker.html">
+            
+                    
+                    docker
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="1.2.1.2" data-path="dockerfile.html">
+            
+                <a href="dockerfile.html">
+            
+                    
+                    dockerfile
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3" >
+            
+                <span>
+            
+                    
+                    算法
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.3.1" data-path="../../10algorithm/base/基础算法.html">
+            
+                <a href="../../10algorithm/base/基础算法.html">
+            
+                    
+                    基础算法
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.2" data-path="../../10algorithm/base/数据结构.html">
+            
+                <a href="../../10algorithm/base/数据结构.html">
+            
+                    
+                    数据结构
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="1.3.3" data-path="../../10algorithm/base/搜索与图论.html">
+            
+                <a href="../../10algorithm/base/搜索与图论.html">
+            
+                    
+                    搜索与图论
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="1.4" >
+            
+                <span>
+            
+                    
+                    mq
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="1.4.1" data-path="../../33mq/kafka/1_概述.md">
+            
+                <span>
+            
+                    
+                    kafka
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+        
+        <li class="divider"></li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" >
+            
+                <span>
+            
+                    
+                    大数据
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1" data-path="../../10algorithm/base/基础算法.html">
+            
+                <a href="../../10algorithm/base/基础算法.html">
+            
+                    
+                    flink
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.1.1.1" data-path="../../31bigdata/flink/0概述.html">
+            
+                <a href="../../31bigdata/flink/0概述.html">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.2" data-path="../../31bigdata/flink/1快速上手.html">
+            
+                <a href="../../31bigdata/flink/1快速上手.html">
+            
+                    
+                    快速上手
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.3" data-path="../../31bigdata/flink/2API.html">
+            
+                <a href="../../31bigdata/flink/2API.html">
+            
+                    
+                    api
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.4" data-path="../../31bigdata/flink/window.md">
+            
+                <span>
+            
+                    
+                    window
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.5" data-path="../../31bigdata/flink/4状态编程和容错机制.html">
+            
+                <a href="../../31bigdata/flink/4状态编程和容错机制.html">
+            
+                    
+                    状态编程和容错机制
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.1.1.6" data-path="../../31bigdata/flink/5sql.html">
+            
+                <a href="../../31bigdata/flink/5sql.html">
+            
+                    
+                    sql
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" >
+            
+                <span>
+            
+                    
+                    mq
+            
+                </span>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1" data-path="../../33mq/kafka/1概述.html">
+            
+                <a href="../../33mq/kafka/1概述.html">
+            
+                    
+                    kafka
+            
+                </a>
+            
+
+            
+            <ul class="articles">
+                
+    
+        <li class="chapter " data-level="2.2.1.1" data-path="../../33mq/kafka/1概述.html">
+            
+                <a href="../../33mq/kafka/1概述.html">
+            
+                    
+                    概述
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2.1.2" data-path="../../33mq/kafka/2安装.html">
+            
+                <a href="../../33mq/kafka/2安装.html">
+            
+                    
+                    安装
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+            </ul>
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            本书使用 GitBook 发布
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="../.." >dockerfile</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <div id="anchor-navigation-ex-navbar"><i class="fa fa-navicon"></i><ul><ul><li><span class="title-icon "></span><a href="#dockerfile"><b></b>dockerfile</a></li><ul><li><span class="title-icon "></span><a href="#&#x662F;&#x4EC0;&#x4E48;"><b></b>&#x662F;&#x4EC0;&#x4E48;</a></li><li><span class="title-icon "></span><a href="#&#x6784;&#x5EFA;&#x8FC7;&#x7A0B;&#x89E3;&#x6790;"><b></b>&#x6784;&#x5EFA;&#x8FC7;&#x7A0B;&#x89E3;&#x6790;</a></li></ul></ul><li><span class="title-icon "></span><a href="#&#x8868;&#x793A;&#x6CE8;&#x91CA;"><b></b>&#x8868;&#x793A;&#x6CE8;&#x91CA;</a></li><ul><ul><li><span class="title-icon "></span><a href="#&#x5173;&#x952E;&#x5B57;"><b></b>&#x5173;&#x952E;&#x5B57;</a></li><li><span class="title-icon "></span><a href="#&#x6848;&#x4F8B;"><b></b>&#x6848;&#x4F8B;</a></li></ul><li><span class="title-icon "></span><a href="#&#x5E38;&#x7528;&#x8F6F;&#x4EF6;&#x5B89;&#x88C5;"><b></b>&#x5E38;&#x7528;&#x8F6F;&#x4EF6;&#x5B89;&#x88C5;</a></li><ul><li><span class="title-icon "></span><a href="#mysql"><b></b>mysql</a></li><li><span class="title-icon "></span><a href="#redis"><b></b>redis</a></li></ul></ul></ul></div><a href="#" id="anchorNavigationExGoTop"><i class="fa fa-arrow-up"></i></a><h2 id="dockerfile"><a name="dockerfile" class="anchor-navigation-ex-anchor" href="#dockerfile"><i class="fa fa-link" aria-hidden="true"></i></a>dockerfile</h2>
+<h3 id="&#x662F;&#x4EC0;&#x4E48;"><a name="&#x662F;&#x4EC0;&#x4E48;" class="anchor-navigation-ex-anchor" href="#&#x662F;&#x4EC0;&#x4E48;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x662F;&#x4EC0;&#x4E48;</h3>
+<p>Dockerfile&#x662F;&#x7528;&#x6765;&#x6784;&#x5EFA;Docker&#x955C;&#x50CF;&#x7684;&#x6784;&#x5EFA;&#x6587;&#x4EF6;&#xFF0C;&#x662F;&#x7531;&#x4E00;&#x7CFB;&#x5217;&#x547D;&#x4EE4;&#x548C;&#x53C2;&#x6570;&#x6784;&#x6210;&#x7684;&#x811A;&#x672C;&#x3002;</p>
+<h3 id="&#x6784;&#x5EFA;&#x8FC7;&#x7A0B;&#x89E3;&#x6790;"><a name="&#x6784;&#x5EFA;&#x8FC7;&#x7A0B;&#x89E3;&#x6790;" class="anchor-navigation-ex-anchor" href="#&#x6784;&#x5EFA;&#x8FC7;&#x7A0B;&#x89E3;&#x6790;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6784;&#x5EFA;&#x8FC7;&#x7A0B;&#x89E3;&#x6790;</h3>
+<h4 id="dockerfile&#x5185;&#x5BB9;&#x57FA;&#x7840;&#x77E5;&#x8BC6;"><a name="dockerfile&#x5185;&#x5BB9;&#x57FA;&#x7840;&#x77E5;&#x8BC6;" class="anchor-navigation-ex-anchor" href="#dockerfile&#x5185;&#x5BB9;&#x57FA;&#x7840;&#x77E5;&#x8BC6;"><i class="fa fa-link" aria-hidden="true"></i></a>Dockerfile&#x5185;&#x5BB9;&#x57FA;&#x7840;&#x77E5;&#x8BC6;</h4>
+<ol>
+<li>&#x6BCF;&#x6761;&#x4FDD;&#x7559;&#x5B57;&#x6307;&#x4EE4;&#x90FD;&#x5FC5;&#x987B;&#x4E3A;&#x5927;&#x5199;&#x5B57;&#x6BCD;&#x4E14;&#x540E;&#x9762;&#x8981;&#x8DDF;&#x968F;&#x81F3;&#x5C11;&#x4E00;&#x4E2A;&#x53C2;&#x6570;</li>
+<li>&#x6307;&#x4EE4;&#x6309;&#x7167;&#x4ECE;&#x4E0A;&#x5230;&#x4E0B;&#xFF0C;&#x987A;&#x5E8F;&#x6267;&#x884C;</li>
+<li><h1 id="&#x8868;&#x793A;&#x6CE8;&#x91CA;"><a name="&#x8868;&#x793A;&#x6CE8;&#x91CA;" class="anchor-navigation-ex-anchor" href="#&#x8868;&#x793A;&#x6CE8;&#x91CA;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x8868;&#x793A;&#x6CE8;&#x91CA;</h1>
+</li>
+<li>&#x6BCF;&#x6761;&#x6307;&#x4EE4;&#x90FD;&#x4F1A;&#x521B;&#x5EFA;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x955C;&#x50CF;&#x5C42;&#xFF0C;&#x5E76;&#x5BF9;&#x955C;&#x50CF;&#x8FDB;&#x884C;&#x63D0;&#x4EA4;</li>
+</ol>
+<ul>
+<li>Dockerfile&#x662F;&#x8F6F;&#x4EF6;&#x7684;&#x539F;&#x6750;&#x6599;</li>
+<li>Docker&#x955C;&#x50CF;&#x662F;&#x8F6F;&#x4EF6;&#x7684;&#x4EA4;&#x4ED8;&#x54C1;</li>
+<li>Docker&#x5BB9;&#x5668;&#x5219;&#x53EF;&#x4EE5;&#x8BA4;&#x4E3A;&#x662F;&#x8F6F;&#x4EF6;&#x7684;&#x8FD0;&#x884C;&#x6001;&#x3002;</li>
+</ul>
+<h4 id="&#x5927;&#x81F4;&#x6D41;&#x7A0B;"><a name="&#x5927;&#x81F4;&#x6D41;&#x7A0B;" class="anchor-navigation-ex-anchor" href="#&#x5927;&#x81F4;&#x6D41;&#x7A0B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5927;&#x81F4;&#x6D41;&#x7A0B;</h4>
+<p>&#xFF08;1&#xFF09;docker&#x4ECE;&#x57FA;&#x7840;&#x955C;&#x50CF;&#x8FD0;&#x884C;&#x4E00;&#x4E2A;&#x5BB9;&#x5668;</p>
+<p>&#xFF08;2&#xFF09;&#x6267;&#x884C;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#x5E76;&#x5BF9;&#x5BB9;&#x5668;&#x4F5C;&#x51FA;&#x4FEE;&#x6539;</p>
+<p>&#xFF08;3&#xFF09;&#x6267;&#x884C;&#x7C7B;&#x4F3C;docker commit&#x7684;&#x64CD;&#x4F5C;&#x63D0;&#x4EA4;&#x4E00;&#x4E2A;&#x65B0;&#x7684;&#x955C;&#x50CF;&#x5C42;</p>
+<p>&#xFF08;4&#xFF09;docker&#x518D;&#x57FA;&#x4E8E;&#x521A;&#x63D0;&#x4EA4;&#x7684;&#x955C;&#x50CF;&#x8FD0;&#x884C;&#x4E00;&#x4E2A;&#x65B0;&#x5BB9;&#x5668;</p>
+<p>&#xFF08;5&#xFF09;&#x6267;&#x884C;dockerfile&#x4E2D;&#x7684;&#x4E0B;&#x4E00;&#x6761;&#x6307;&#x4EE4;&#x76F4;&#x5230;&#x6240;&#x6709;&#x6307;&#x4EE4;&#x90FD;&#x6267;&#x884C;&#x5B8C;&#x6210;</p>
+<h3 id="&#x5173;&#x952E;&#x5B57;"><a name="&#x5173;&#x952E;&#x5B57;" class="anchor-navigation-ex-anchor" href="#&#x5173;&#x952E;&#x5B57;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5173;&#x952E;&#x5B57;</h3>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">&#x5173;&#x952E;&#x5B57;</th>
+<th style="text-align:center">&#x63CF;&#x8FF0;</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">FROM</td>
+<td style="text-align:center">&#x57FA;&#x7840;&#x955C;&#x50CF;&#xFF0C;&#x5F53;&#x524D;&#x65B0;&#x955C;&#x50CF;&#x662F;&#x57FA;&#x4E8E;&#x54EA;&#x4E2A;&#x955C;&#x50CF;&#x7684;</td>
+</tr>
+<tr>
+<td style="text-align:center">MAINTAINER</td>
+<td style="text-align:center">&#x955C;&#x50CF;&#x7EF4;&#x62A4;&#x8005;&#x7684;&#x59D3;&#x540D;&#x548C;&#x90AE;&#x7BB1;&#x5730;&#x5740;</td>
+</tr>
+<tr>
+<td style="text-align:center">RUN</td>
+<td style="text-align:center">&#x5BB9;&#x5668;&#x6784;&#x5EFA;&#x65F6;&#x9700;&#x8981;&#x8FD0;&#x884C;&#x7684;&#x547D;&#x4EE4;</td>
+</tr>
+<tr>
+<td style="text-align:center">EXPOSE</td>
+<td style="text-align:center">&#x5F53;&#x524D;&#x5BB9;&#x5668;&#x5BF9;&#x5916;&#x66B4;&#x9732;&#x51FA;&#x7684;&#x7AEF;&#x53E3;</td>
+</tr>
+<tr>
+<td style="text-align:center">WORKDIR</td>
+<td style="text-align:center">&#x6307;&#x5B9A;&#x5728;&#x521B;&#x5EFA;&#x5BB9;&#x5668;&#x540E;&#xFF0C;&#x7EC8;&#x7AEF;&#x9ED8;&#x8BA4;&#x767B;&#x9646;&#x7684;&#x8FDB;&#x6765;&#x5DE5;&#x4F5C;&#x76EE;&#x5F55;&#xFF0C;&#x4E00;&#x4E2A;&#x843D;&#x811A;&#x70B9;</td>
+</tr>
+<tr>
+<td style="text-align:center">ENV</td>
+<td style="text-align:center">&#x7528;&#x6765;&#x5728;&#x6784;&#x5EFA;&#x955C;&#x50CF;&#x8FC7;&#x7A0B;&#x4E2D;&#x8BBE;&#x7F6E;&#x73AF;&#x5883;&#x53D8;&#x91CF;</td>
+</tr>
+<tr>
+<td style="text-align:center">ADD</td>
+<td style="text-align:center">&#x5C06;&#x5BBF;&#x4E3B;&#x673A;&#x76EE;&#x5F55;&#x4E0B;&#x7684;&#x6587;&#x4EF6;&#x62F7;&#x8D1D;&#x8FDB;&#x955C;&#x50CF;&#x4E14;ADD&#x547D;&#x4EE4;&#x4F1A;&#x81EA;&#x52A8;&#x5904;&#x7406;URL&#x548C;&#x89E3;&#x538B;tar&#x538B;&#x7F29;&#x5305;</td>
+</tr>
+<tr>
+<td style="text-align:center">COPY</td>
+<td style="text-align:center">&#x7C7B;&#x4F3C;ADD&#xFF0C;&#x62F7;&#x8D1D;&#x6587;&#x4EF6;&#x548C;&#x76EE;&#x5F55;&#x5230;&#x955C;&#x50CF;&#x4E2D;&#x3002;<br>&#x5C06;&#x4ECE;&#x6784;&#x5EFA;&#x4E0A;&#x4E0B;&#x6587;&#x76EE;&#x5F55;&#x4E2D; &lt;&#x6E90;&#x8DEF;&#x5F84;&gt; &#x7684;&#x6587;&#x4EF6;/&#x76EE;&#x5F55;&#x590D;&#x5236;&#x5230;&#x65B0;&#x7684;&#x4E00;&#x5C42;&#x7684;&#x955C;&#x50CF;&#x5185;&#x7684; &lt;&#x76EE;&#x6807;&#x8DEF;&#x5F84;&gt; &#x4F4D;&#x7F6E;</td>
+</tr>
+<tr>
+<td style="text-align:center">VOLUME</td>
+<td style="text-align:center">&#x5BB9;&#x5668;&#x6570;&#x636E;&#x5377;&#xFF0C;&#x7528;&#x4E8E;&#x6570;&#x636E;&#x4FDD;&#x5B58;&#x548C;&#x6301;&#x4E45;&#x5316;&#x5DE5;&#x4F5C;</td>
+</tr>
+<tr>
+<td style="text-align:center">CMD</td>
+<td style="text-align:center">&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x5BB9;&#x5668;&#x542F;&#x52A8;&#x65F6;&#x8981;&#x8FD0;&#x884C;&#x7684;&#x547D;&#x4EE4;<br>&#xFF08;Dockerfile &#x4E2D;&#x53EF;&#x4EE5;&#x6709;&#x591A;&#x4E2A; CMD &#x6307;&#x4EE4;&#xFF0C;&#x4F46;&#x53EA;&#x6709;&#x6700;&#x540E;&#x4E00;&#x4E2A;&#x751F;&#x6548;&#xFF0C;<br>CMD &#x4F1A;&#x88AB; docker run &#x4E4B;&#x540E;&#x7684;&#x53C2;&#x6570;&#x66FF;&#x6362;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:center">ENTRYPOINT</td>
+<td style="text-align:center">&#x6307;&#x5B9A;&#x4E00;&#x4E2A;&#x5BB9;&#x5668;&#x542F;&#x52A8;&#x65F6;&#x8981;&#x8FD0;&#x884C;&#x7684;&#x547D;&#x4EE4;<br>&#xFF08;ENTRYPOINT &#x7684;&#x76EE;&#x7684;&#x548C; CMD &#x4E00;&#x6837;&#xFF0C;&#x90FD;&#x662F;&#x5728;&#x6307;&#x5B9A;&#x5BB9;&#x5668;&#x542F;&#x52A8;&#x7A0B;&#x5E8F;&#x53CA;&#x53C2;&#x6570;&#xFF09;</td>
+</tr>
+<tr>
+<td style="text-align:center">ONBUILD</td>
+<td style="text-align:center">&#x5F53;&#x6784;&#x5EFA;&#x4E00;&#x4E2A;&#x88AB;&#x7EE7;&#x627F;&#x7684;Dockerfile&#x65F6;&#x8FD0;&#x884C;&#x547D;&#x4EE4;&#xFF0C;&#x7236;&#x955C;&#x50CF;&#x5728;&#x88AB;&#x5B50;&#x7EE7;&#x627F;&#x540E;&#x7236;&#x955C;&#x50CF;&#x7684;onbuild&#x88AB;&#x89E6;&#x53D1;</td>
+</tr>
+</tbody>
+</table>
+<p>ENV MY_PATH /usr/mytest
+&#x8FD9;&#x4E2A;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x53EF;&#x4EE5;&#x5728;&#x540E;&#x7EED;&#x7684;&#x4EFB;&#x4F55;RUN&#x6307;&#x4EE4;&#x4E2D;&#x4F7F;&#x7528;&#xFF0C;&#x8FD9;&#x5C31;&#x5982;&#x540C;&#x5728;&#x547D;&#x4EE4;&#x524D;&#x9762;&#x6307;&#x5B9A;&#x4E86;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#x524D;&#x7F00;&#x4E00;&#x6837;&#xFF1B;
+&#x4E5F;&#x53EF;&#x4EE5;&#x5728;&#x5176;&#x5B83;&#x6307;&#x4EE4;&#x4E2D;&#x76F4;&#x63A5;&#x4F7F;&#x7528;&#x8FD9;&#x4E9B;&#x73AF;&#x5883;&#x53D8;&#x91CF;&#xFF0C;</p>
+<p>&#x6BD4;&#x5982;&#xFF1A;WORKDIR $MY_PATH</p>
+<p>ONBUILD  </p>
+<p><a href="https://raw.githubusercontent.com/imattdu/img/main/img/2022/03/05/20220305002458.png" data-lightbox="7e4fb0f6-aeb4-484b-a0be-d6d4c0f71277" data-title="" target="_blank"><img src="https://raw.githubusercontent.com/imattdu/img/main/img/2022/03/05/20220305002458.png" alt=""></a></p>
+<h3 id="&#x6848;&#x4F8B;"><a name="&#x6848;&#x4F8B;" class="anchor-navigation-ex-anchor" href="#&#x6848;&#x4F8B;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6848;&#x4F8B;</h3>
+<h4 id="dockerfile_1"><a name="dockerfile_1" class="anchor-navigation-ex-anchor" href="#dockerfile_1"><i class="fa fa-link" aria-hidden="true"></i></a>dockerfile</h4>
+<pre class="language-"><code class="lang-sh">FROM         centos:centos7
+MAINTAINER    matt<span class="token operator">&lt;</span>matt@qq.com<span class="token operator">&gt;</span>
+<span class="token comment">#&#x628A;&#x5BBF;&#x4E3B;&#x673A;&#x5F53;&#x524D;&#x4E0A;&#x4E0B;&#x6587;&#x7684;c.txt&#x62F7;&#x8D1D;&#x5230;&#x5BB9;&#x5668;/usr/local/&#x8DEF;&#x5F84;&#x4E0B;</span>
+COPY c.txt /usr/local/cincontainer.txt
+<span class="token comment">#&#x628A;java&#x4E0E;tomcat&#x6DFB;&#x52A0;&#x5230;&#x5BB9;&#x5668;&#x4E2D;</span>
+ADD jdk-8u171-linux-x64.tar.gz /usr/local/
+ADD apache-tomcat-9.0.8.tar.gz /usr/local/
+<span class="token comment">#&#x5B89;&#x88C5;vim&#x7F16;&#x8F91;&#x5668;</span>
+RUN yum -y <span class="token function">install</span> <span class="token function">vim</span>
+<span class="token comment">#&#x8BBE;&#x7F6E;&#x5DE5;&#x4F5C;&#x8BBF;&#x95EE;&#x65F6;&#x5019;&#x7684;WORKDIR&#x8DEF;&#x5F84;&#xFF0C;&#x767B;&#x5F55;&#x843D;&#x811A;&#x70B9;</span>
+ENV MYPATH /usr/local
+WORKDIR <span class="token variable">$MYPATH</span>
+<span class="token comment">#&#x914D;&#x7F6E;java&#x4E0E;tomcat&#x73AF;&#x5883;&#x53D8;&#x91CF;</span>
+ENV JAVA_HOME /usr/local/jdk1.8.0_171
+ENV CLASSPATH <span class="token variable">$JAVA_HOME</span>/lib/dt.jar:<span class="token variable">$JAVA_HOME</span>/lib/tools.jar
+ENV CATALINA_HOME /usr/local/apache-tomcat-9.0.8
+ENV CATALINA_BASE /usr/local/apache-tomcat-9.0.8
+ENV <span class="token environment constant">PATH</span> <span class="token environment constant">$PATH</span><span class="token builtin class-name">:</span><span class="token variable">$JAVA_HOME</span>/bin:<span class="token variable">$CATALINA_HOME</span>/lib:<span class="token variable">$CATALINA_HOME</span>/bin
+<span class="token comment">#&#x5BB9;&#x5668;&#x8FD0;&#x884C;&#x65F6;&#x76D1;&#x542C;&#x7684;&#x7AEF;&#x53E3;</span>
+EXPOSE  <span class="token number">8080</span>
+<span class="token comment">#&#x542F;&#x52A8;&#x65F6;&#x8FD0;&#x884C;tomcat</span>
+<span class="token comment"># ENTRYPOINT [&quot;/usr/local/apache-tomcat-9.0.8/bin/startup.sh&quot; ]</span>
+<span class="token comment"># CMD [&quot;/usr/local/apache-tomcat-9.0.8/bin/catalina.sh&quot;,&quot;run&quot;]</span>
+CMD /usr/local/apache-tomcat-9.0.8/bin/startup.sh <span class="token operator">&amp;&amp;</span> <span class="token function">tail</span> -F /usr/local/apache-tomcat-9.0.8/bin/logs/catalina.out
+</code></pre>
+<h4 id="&#x6784;&#x5EFA;"><a name="&#x6784;&#x5EFA;" class="anchor-navigation-ex-anchor" href="#&#x6784;&#x5EFA;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x6784;&#x5EFA;</h4>
+<pre class="language-"><code class="lang-sh"><span class="token function">docker</span> build -t mcentos:1
+
+<span class="token comment"># &#x9ED8;&#x8BA4;&#x4F1A;&#x4F7F;&#x7528;&#x8BE5;&#x6587;&#x4EF6;&#x5939;Dockerfile &#x4E5F;&#x53EF;&#x4EE5;&#x901A;&#x8FC7;-f&#x6307;&#x5B9A;&#x5176;&#x4ED6;&#x6587;&#x4EF6;&#x5939;</span>
+<span class="token function">docker</span> build -f Dockerfile -t mcentos:1
+</code></pre>
+<h2 id="&#x5E38;&#x7528;&#x8F6F;&#x4EF6;&#x5B89;&#x88C5;"><a name="&#x5E38;&#x7528;&#x8F6F;&#x4EF6;&#x5B89;&#x88C5;" class="anchor-navigation-ex-anchor" href="#&#x5E38;&#x7528;&#x8F6F;&#x4EF6;&#x5B89;&#x88C5;"><i class="fa fa-link" aria-hidden="true"></i></a>&#x5E38;&#x7528;&#x8F6F;&#x4EF6;&#x5B89;&#x88C5;</h2>
+<h3 id="mysql"><a name="mysql" class="anchor-navigation-ex-anchor" href="#mysql"><i class="fa fa-link" aria-hidden="true"></i></a>mysql</h3>
+<pre class="language-"><code class="lang-sh"><span class="token function">docker</span> pull mysql:5.6
+
+
+<span class="token function">docker</span> run -p <span class="token number">12345</span>:3306 --name mysql -v /zzyyuse/mysql/conf:/etc/mysql/conf.d -v /zzyyuse/mysql/logs:/logs -v /zzyyuse/mysql/data:/var/lib/mysql -e <span class="token assign-left variable">MYSQL_ROOT_PASSWORD</span><span class="token operator">=</span><span class="token number">123456</span> -d mysql:5.6
+
+
+
+
+<span class="token function">docker</span> run -p <span class="token number">12345</span>:3306 --name mysql -e <span class="token assign-left variable">MYSQL_ROOT_PASSWORD</span><span class="token operator">=</span><span class="token number">123456</span> -d mysql:5.6
+</code></pre>
+<h3 id="redis"><a name="redis" class="anchor-navigation-ex-anchor" href="#redis"><i class="fa fa-link" aria-hidden="true"></i></a>redis</h3>
+<pre class="language-"><code class="lang-sh"><span class="token function">docker</span> pull redis:3.2
+
+
+
+<span class="token comment"># --appendonly yes &#x5F00;&#x542F;&#x6301;&#x4E45;&#x5316;</span>
+<span class="token function">docker</span> run -p <span class="token number">6379</span>:6379 -v /home/matt/myredis/data:/data -v /home/matt/myredis/conf/redis.conf:/usr/local/etc/redis/redis.conf  -d redis:3.2 redis-server /usr/local/etc/redis/redis.conf --appendonly <span class="token function">yes</span>
+</code></pre>
+<p>aliyun</p>
+<p><a href="https://dev.aliyun.com/search.html" target="_blank">https://dev.aliyun.com/search.html</a></p>
+<p><a href="https://raw.githubusercontent.com/imattdu/img/main/img/2022/03/05/20220305010528.png" data-lightbox="7e4fb0f6-aeb4-484b-a0be-d6d4c0f71277" data-title="" target="_blank"><img src="https://raw.githubusercontent.com/imattdu/img/main/img/2022/03/05/20220305010528.png" alt=""></a> </p>
+<footer class="page-footer"><span class="copyright">Copyright &#xA9; iweiwan.github.io 2022 all right reserved&#xFF0C;powered by Gitbook</span><span class="footer-modification">&#x8BE5;&#x6587;&#x4EF6;&#x4FEE;&#x8BA2;&#x65F6;&#x95F4;&#xFF1A;
+2022-03-05 13:30:56
+</span></footer><script>document.addEventListener("DOMContentLoaded", function() {lightbox.option({"resizeDuration":500,"wrapAround":false});})</script>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="docker.html" class="navigation navigation-prev navigation-unique" aria-label="Previous page: docker">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"title":"dockerfile","level":"1.2.1.2","depth":3,"next":{"title":"算法","level":"1.3","depth":1,"ref":"","articles":[{"title":"基础算法","level":"1.3.1","depth":2,"path":"10algorithm/base/基础算法.md","ref":"10algorithm/base/基础算法.md","articles":[]},{"title":"数据结构","level":"1.3.2","depth":2,"path":"10algorithm/base/数据结构.md","ref":"10algorithm/base/数据结构.md","articles":[]},{"title":"搜索与图论","level":"1.3.3","depth":2,"path":"10algorithm/base/搜索与图论.md","ref":"10algorithm/base/搜索与图论.md","articles":[]}]},"previous":{"title":"docker","level":"1.2.1.1","depth":3,"path":"09tool/docker/docker.md","ref":"09tool/docker/docker.md","articles":[]},"dir":"ltr"},"config":{"plugins":["livereload","theme-comscore","code","-highlight","prism","prism-themes","search-pro","-search","-lunr","expandable-chapters","splitter","-sharing","sharing-plus","-donate","tbfed-pagefooter","hide-element","lightbox","favicon-absolute","-back-to-top-button","anchor-navigation-ex","livereload"],"styles":{"website":"./public-repertory/css/gitbook-configure.css"},"pluginsConfig":{"tbfed-pagefooter":{"copyright":"Copyright &copy iweiwan.github.io 2022","modify_label":"该文件修订时间：","modify_format":"YYYY-MM-DD HH:mm:ss"},"prism":{"css":["prism-themes/themes/prism-atom-dark.css"]},"livereload":{},"splitter":{},"search-pro":{},"sharing-plus":{"qq":false,"all":["facebook","google","twitter","instapaper","linkedin","pocket","stumbleupon"],"douban":false,"facebook":true,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":true,"messenger":false,"line":false,"vk":false,"pocket":true,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"code":{"copyButtons":true},"donate":{"button":"打赏","alipayText":"支付宝打赏","wechatText":"微信打赏","alipay":"https://github.com/LiangJunrong/document-library/blob/master/public-repertory/img/seek-reward.jpg?raw=true","wechat":"https://github.com/LiangJunrong/document-library/blob/master/public-repertory/img/seek-reward.png?raw=true"},"favicon-absolute":{"appleTouchIconMore":{},"appleTouchIconPrecomposed152":"/_media/icon-144x144.png","appleTouchIconPrecomposedMore":{},"favicon":"/_media/favicon.ico"},"hide-element":{"elements":[".gitbook-link"]},"fontsettings":{"theme":"white","family":"sans","size":2},"anchor-navigation-ex":{"associatedWithSummary":true,"float":{"floatIcon":"fa fa-navicon","level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"mode":"float","multipleH1":true,"pageTop":{"level1Icon":"","level2Icon":"","level3Icon":"","showLevelIcon":false},"printLog":false,"showGoTop":true,"showLevel":false},"lightbox":{"jquery":true,"includeJQuery":false,"sameUuid":true,"options":{"resizeDuration":500,"wrapAround":false}},"theme-comscore":{},"prism-themes":{},"sharing":{"qq":false,"all":[],"douban":true,"facebook":false,"weibo":false,"instapaper":false,"whatsapp":false,"hatenaBookmark":false,"twitter":false,"messenger":false,"line":false,"vk":false,"pocket":false,"google":false,"viber":false,"stumbleupon":false,"qzone":false,"linkedin":false},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false},"expandable-chapters":{}},"theme":"default","author":"未完","pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"variables":{},"title":"未完","language":"zh-hans","gitbook":"*","description":"未完的博客"},"file":{"path":"09tool/docker/dockerfile.md","mtime":"2022-03-05T05:30:56.062Z","type":"markdown"},"gitbook":{"version":"3.2.3","time":"2022-03-23T15:44:00.949Z"},"basePath":"../..","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="../../gitbook/gitbook.js"></script>
+    <script src="../../gitbook/theme.js"></script>
+    
+        
+        <script src="../../gitbook/gitbook-plugin-livereload/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-code/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/jquery.mark.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-search-pro/search.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-expandable-chapters/expandable-chapters.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-splitter/splitter.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-sharing-plus/buttons.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-hide-element/plugin.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-lightbox/js/lightbox.min.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+        
+        <script src="../../gitbook/gitbook-plugin-theme-comscore/test.js"></script>
+        
+    
+
+    </body>
+</html>
+

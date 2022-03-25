@@ -1,0 +1,91 @@
+{
+  "main": {
+    "id": "c08dd4268b4bc13f",
+    "type": "split",
+    "children": [
+      {
+        "id": "f67510649dd80d26",
+        "type": "leaf",
+        "state": {
+          "type": "empty",
+          "state": {}
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "e232f56e0cd697fc",
+    "type": "split",
+    "children": [
+      {
+        "id": "228a429ad95c465c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "64e95af7399056bb",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "21473316e3c4578c",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "88a8507f20cad821",
+    "type": "split",
+    "children": [
+      {
+        "id": "5e372f26e0171cc9",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "df964bdaa4e2f43e",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "f67510649dd80d26",
+  "lastOpenFiles": [
+    "01java/java安装.md",
+    "README.md",
+    "10algorithm/base/搜索与图论.md"
+  ]
+}
