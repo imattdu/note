@@ -34,7 +34,7 @@ https://jiangminggithub.github.io/gitbook/chapter-plugins/8-code.html
 
 
 
-![](https://raw.githubusercontent.com/imattdu/img/main/img/202203120045197.png)
+![](http://raw.githubusercontent.com/imattdu/img/main/img/202203120045197.png)
 
 
 
@@ -65,8 +65,8 @@ https://jiangminggithub.github.io/gitbook/chapter-plugins/8-code.html
 <script src="https://giscus.app/client.js"
         data-repo="iweiwan/iweiwan.github.io"
         data-repo-id="R_kgDOHC6xSw"
-        data-category="Announcements"
-        data-category-id="DIC_kwDOHC6xS84CORpZ"
+        data-category="Comment"
+        data-category-id="DIC_kwDOHC6xS84COTo_"
         data-mapping="url"
         data-reactions-enabled="1"
         data-emit-metadata="1"
@@ -77,6 +77,11 @@ https://jiangminggithub.github.io/gitbook/chapter-plugins/8-code.html
         crossorigin="anonymous"
         async>
 </script>
+
+
+
+
+
 
 
 
