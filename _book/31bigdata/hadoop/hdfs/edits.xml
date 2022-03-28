@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EDITS>
+  <EDITS_VERSION>-64</EDITS_VERSION>
+  <RECORD>
+    <OPCODE>OP_START_LOG_SEGMENT</OPCODE>
+    <DATA>
+      <TXID>8686</TXID>
+    </DATA>
+  </RECORD>
+  <RECORD>
+    <OPCODE>OP_DELETE</OPCODE>
+    <DATA>
+      <TXID>8687</TXID>
+      <LENGTH>0</LENGTH>
+      <PATH>/tmp</PATH>
+      <TIMESTAMP>1639277894952</TIMESTAMP>
+      <RPC_CLIENTID/>
+      <RPC_CALLID>-2</RPC_CALLID>
+    </DATA>
+  </RECORD>
+  <RECORD>
+    <OPCODE>OP_DELETE</OPCODE>
+    <DATA>
+      <TXID>8688</TXID>
+      <LENGTH>0</LENGTH>
+      <PATH>/dmx</PATH>
+      <TIMESTAMP>1639277894964</TIMESTAMP>
+      <RPC_CLIENTID/>
+      <RPC_CALLID>-2</RPC_CALLID>
+    </DATA>
+  </RECORD>
+</EDITS>

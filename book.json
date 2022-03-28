@@ -29,12 +29,14 @@
     "lightbox",
     "favicon-absolute",
     "-back-to-top-button",
-    "anchor-navigation-ex"
+    "anchor-navigation-ex",
+    "pageview-count",
+    "github"
   ],
   "pluginsConfig": {
 
      "sharing": {
-            "douban": true,
+            "douban": false,
             "facebook": false,
             "google": false,
             "hatenaBookmark": false,
@@ -69,7 +71,7 @@
     },
     "prism": {
       "css": [
-        "prism-themes/themes/prism-atom-dark.css"
+        "prism-themes/themes/prism-one-dark.css"
       ]
     },
     "tbfed-pagefooter": {
@@ -92,8 +94,9 @@
             "resizeDuration": 500,
             "wrapAround": false
         }
-    }
-
-
+    },
+    "github": {
+            "url": "https://github.com/iweiwan"
+     }
   }
 }

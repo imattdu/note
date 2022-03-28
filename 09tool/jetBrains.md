@@ -1,36 +1,3 @@
-+++
-title = "jetbrain"
-date = 2022-01-20T17:25:20+08:00
-featured = false
-comment = true
-toc = true
-reward = true
-weight = 9
-categories = [
-  "tool"
-]
-tags = [
-]
-series = [
-]
-images = []
-aliases = [
-]
-
-+++
-
-jetbrain
-
-<!--more-->
-
-
-
-
-
-
-
-
-
 # 安装
 
 
@@ -518,4 +485,54 @@ endforeach ()
 
 
 ![](https://raw.githubusercontent.com/imattdu/img/main/img/2021/12/23/20211223014406.png)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+# clion
+
+
+
+## 常用配置
+
+
+
+### 导入bits/stdc++.h出错
+
+
+
+
+
+```sh
+brew install gcc
+
+
+
+/opt/homebrew/Cellar/gcc/11.2.0_3/bin/gcc-11
+/opt/homebrew/Cellar/gcc/11.2.0_3/bin/g++-11
+
+
+-D CMAKE_CXX_COMPILER=/opt/homebrew/Cellar/gcc/11.2.0_3/bin/g++-11
+```
+
+![](https://raw.githubusercontent.com/imattdu/img/main/img/202203261935470.png)
+
+
+
+
+
+
+
+![](https://raw.githubusercontent.com/imattdu/img/main/img/202203261936379.png)
 
