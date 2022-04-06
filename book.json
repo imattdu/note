@@ -30,7 +30,7 @@
     "favicon-absolute",
     "-back-to-top-button",
     "anchor-navigation-ex",
-    "pageview-count",
+    "-pageview-count",
     "github"
   ],
   "pluginsConfig": {
