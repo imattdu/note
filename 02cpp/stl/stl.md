@@ -1,32 +1,3 @@
-+++
-title = "stl使用"
-date = 2022-01-20T17:25:20+08:00
-featured = false
-comment = true
-toc = true
-reward = true
-weight = 9
-categories = [
-  "tool"
-]
-tags = [
-]
-series = [
-]
-images = []
-aliases = [
-]
-
-+++
-
-file使用
-
-<!--more-->
-
-
-
-
-
 
 
 ### vector
@@ -243,8 +214,6 @@ int main () {
 
 
 
-### 
-
 
 
 ```cpp
@@ -389,8 +358,7 @@ int main() {
     map<int, int> m1;
     m1[1] = 2;
     m1.insert({1, 2});
-    m1[2, 4];
-    m1[3, 4];
+    
     
     // begin end find insert
     cout << (m1.find(1) == m1.end()); 

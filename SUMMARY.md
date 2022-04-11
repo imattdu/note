@@ -19,6 +19,11 @@
     - [atomic](/00go/1concurrent/7atomic.md)
   - [常用包]()
     - [string](/00go/2常用包/0string.md)
+    - [time](/00go/2常用包/1time.md)
+    - [flag](/00go/2常用包/2flag.md)
+    - [log](/00go/2常用包/3log.md)
+    - [io](/00go/2常用包/4io.md)
+    - [反射](/00go/2常用包/9反射.md)
 * [tool]()
   - docker
     - [docker](/09tool/docker/docker.md)

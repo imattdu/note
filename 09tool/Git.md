@@ -1,28 +1,3 @@
-+++
-title = "git"
-date = 2022-01-20T17:25:20+08:00
-featured = false
-comment = true
-toc = true
-reward = true
-weight = 9
-categories = [
-  "tool"
-]
-tags = [
-]
-series = [
-]
-images = []
-aliases = [
-]
-
-+++
-
-git使用
-
-<!--more-->
-
 
 
 
@@ -211,6 +186,9 @@ git merge test // 合并test分支
 git remote rm origin
 
 git remote add origin git@github.com:imattdu/studyhdfs.git
+
+
+git remote set-url origin https://github.com/vuejs/vue.git
 ```
 
 
@@ -318,7 +296,7 @@ hs_err_pid*
 .project
 .settings
 target
-.gitignore
+# .gitignore
 ```
 
 
@@ -561,3 +539,105 @@ git config --global core.autocrlf false
 
 
 https://cnbin.github.io/blog/2015/06/19/git-core-dot-autocrlf-pei-zhi-shuo-ming/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+提示：  git config pull.rebase false  # 合并
+提示：  git config pull.rebase true   # 变基
+提示：  git config pull.ff only       # 仅快进
+
+
+
+
+
+合并
+
+分支并没有改变·1
+
+
+
+
+
+变基：
+
+分支也基于最新的基础改变了
+
+
+
+
+
+
+
+
+
+```sh
+// master分支执行b1的操作 基于他们最近的祖先
+git rebase b1
+
+// 提交已解决的事项
+git add .
+git rebase --continue
+
+
+// 退出变基
+git rebase --abort
+```
+
+
+
+
+
+// 不推荐
+
+`git stash pop --index` 恢复最新的进度到工作区和暂存区
+
+
+
+```sh
+git stash save "xxx"
+
+
+
+git stash list
+git stash pop
+git stash pop stash@{1}
+
+git stash apply stash@{1}
+
+git stash drop stash@{1}
+
+git stash clear
+```
+
+
+
+
+
+工作区 add 暂存区 commit 分支
+
+
+
+
+
+git reset --hard
+
+
+
+```sh
+--soft # 还原 HEAD
+--mixed # 还原 HEAD、Index # 默认参数
+--hard # 还原 HEAD、Index、Working Directory
+```
+
