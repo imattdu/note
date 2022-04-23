@@ -35,7 +35,17 @@
     - [数据结构](10algorithm/base/1数据结构.md)
     - [搜索与图论](10algorithm/base/2搜索与图论.md)
     - [数学](10algorithm/base/3数学.md)
+
+
+* [数据库]()
+  - [mysql]()
+    
+    - [概述](20db/0mysql基础/0mysql概述.md)
+    
+      
+  
 * [大数据]()
+  
   - [flink](10algorithm/base/基础算法.md)
     - [概述](/31bigdata/flink/0概述.md)
     - [快速上手](/31bigdata/flink/1快速上手.md)
@@ -45,16 +55,19 @@
     - [sql](/31bigdata/flink/5sql.md)
   - [hbase](10algorithm/base/基础算法.md)    
     - [概述](/31bigdata/hbase/hbase概述.md)
+  
 * [mq]()
-  - [kafka](33mq/0kafka/1概述.md)
+  - [kafka]()
     - [概述](33mq/0kafka/0概述.md)
     - [安装](33mq/0kafka/1安装.md)
     - [终端操作.md](33mq/0kafka/2终端操作.md)
     - [原理.md](33mq/0kafka/3原理.md)
     - [api](33mq/0kafka/4api.md)
+  
 * 中间件
   - zookeeper
     - [zookeeper笔记](34mw/zookeeper/zookeeper学习.md)
+  
 * 其他
   - [temp](temp.md)
   - [留言墙](留言墙.md)
